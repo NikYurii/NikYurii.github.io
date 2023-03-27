@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/icons8-travel-16.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/801f74b460.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/map.js"></script>
+    <title>feedback about us</title>
+  </head>
+  <body class="body-feedback">
+    <header class="header">
+ 
+    </header>
+    <main class="main ">
+        <div class="wrapper">
+            <div class="form ">
+                <form action="#" id="form" class="form__body " >
+                    <h1 class="form__title">Напишіть ваш відгук</h1>
+                    <div class="form__item">
+                        <label for="formName" class="form__label">Ім'я*:</label>
+                        <input id="formName" type="text" name="name" class="form__input _req">
+                    </div>
+                    <div class="form__item">
+                        <label for="formSurname" class="form__label">Прізвище*:</label>
+                        <input id="formSurname" type="text" name="surname" class="form__input _req">
+                    </div>
+                    <div class="form__item">
+                        <label for="formEmail" class="form__label">E-mail*:</label>
+                        <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                    </div>
+                    <!-- <div class="form__item">
+                        <div class="form__label">left or right</div>
+                        <div class="options">
+                            <div class="options__item">
+                                <input id="formRightHaded" checked type="radio" value="right" name="hand" class="options__input">
+                                <label for="formRightHaded" class="options__label"><span> Right</span></label>
+                            </div>
+                            <div class="options__item">
+                                <input id="formLeftHaded" type="radio" value="left" name="hand" class="options__input">
+                                <label for="formLeftHaded" class="options__label"><span> Left</span></label>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="form__item">
+                        <label for="formMessage" class="form__label">Ваш відгук:</label>
+                        <textarea name="message" id="formMessage" class="form__input" cols="30" rows="10"></textarea>
+                    </div>
+                    <!-- <div class="form__item">
+                        <div class="form__label">Age:</div>
+                        <select name="age" class="select" >
+                            <option value="18 - 25" selected>Yang</option>
+                            <option value="25 - 45" >Old</option>
+                            <option value="45 - 80" >Super old</option>
+                        </select>
+                    </div> -->
+                    <div class="form__item">
+                        <div class="form__label">Додати фото</div>
+                        <div class="file">
+                            <div class="file__item">
+                                <input id="formImage" accept=".jpg, .png .gift" type="file"  name="image" class="file__input">
+                                <div class="file__button">Вибрати</div>
+                            </div>
+                            <div id="formPreview" class="file__preview"></div>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="checkbox">
+                            <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                            <label for="formAgreement" class="checkbox__label"><span>Я даю згоду на обробку даних відповідно до <a href="#" >умов</a> і підтверджую що ознайомився з інформацією необхідной з відповідністю до <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC" target="_blank">Artikel 13 DS-GVO </a> </span></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="form__button">Відправити</button>
+                </form>
+            </div>
+        </div>
+     
+    </main>
+    
+    <!-- <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkXs39-V9a29iC-rMGDVy8uY1HjV3VN4g&callback=initMap"
+    ></script> -->
+
+    <script src="./js/jquery.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

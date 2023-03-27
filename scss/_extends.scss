@@ -1,0 +1,22 @@
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%btn-style {
+    border: 1px solid #2C4058;
+    background: none;
+    width: 190px;
+    height: 50px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 17px;
+    @extend%flex-center;
+    text-decoration: none;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    transition: 0.8s;
+    &:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    } 
+}
